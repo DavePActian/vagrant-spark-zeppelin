@@ -2,7 +2,7 @@
 
 echo "Updating System"
 apt-get update
-apt-get install -y vim net-tools
+apt-get install -y vim net-tools git
 
 cat > /home/vagrant/.bash_aliases <<EOF
 alias l1='ls -1 --color'
